@@ -9,15 +9,26 @@ $titleSuffix = "";
 
 
 switch ($params[1]) {
-    case 'home':
-
+    case 'home.php':
+        $titleSuffix = ' | Home';
+        include_once "../Templates/home.php";
         break;
-    case 'motivation':
-       
-    case 'over':
+    case 'mot.php':
+        $titleSuffix = ' | Motivation';
+        include_once "../Templates/mot.php";
+    break;
+
+    case 'over.php':
+        $titleSuffix = ' | About';
+        include_once "../Templates/over.php";
         
         break;
-    case 'image':
+    case 'image.php':
+        $titleSuffix = ' | Fun';
+        include_once "../Templates/image.php";
+
+        break;
+    case 'game':
 
         break;
     case 'uitloggen':
@@ -36,7 +47,7 @@ switch ($params[1]) {
     
         $titleSuffix = ' | Home';
         
-        include_once "../Templates/index.html";
+        include_once "../Templates/home.php";
 
 
 }

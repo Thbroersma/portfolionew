@@ -5,12 +5,12 @@
                     <button class="switchButton">
                         Switch up
                     </button>
-                    <span><a href="index.html">😄</a></span>
+                    <span><a href="home.php">😄</a></span>
                     <div class="navigation">
-                        <a href="home" class="nav-right">Home</a>
-                        <a href="motivation" class="nav-right">Motivation</a>
-                        <a href="over" class="nav-right">About myself</a>
-                        <a href="game" class="nav-right">Games</a>
+                        <a href="home.php" class="nav-right">Home</a>
+                        <a href="mot.php" class="nav-right">Motivation</a>
+                        <a href="over.php" class="nav-right">About myself</a>
+                        <a href="game.php" class="nav-right">Games</a>
                     </div>
                 </ul>
             </div>

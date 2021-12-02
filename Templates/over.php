@@ -8,26 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="../public/css/over.css">
 </head>
 <body class="the body">
-	<nav>
-		<div class="row">
-			<div class="col-sm-12">
-				<ul class="nav">
-					<button class="switchButton">
-						Switch up
-					</button>
-					<span><a href="index.html">😄</a></span>
-					<div class="navigation">
-						<a href="index.html" class="nav-right">Home</a>
-						<a href="mot.html" class="nav-right">Motivation</a>
-						<a href="contact.php" class="nav-right">About myself</a>
-						<a href="Pacman/index.html" class="nav-right">Games</a>
-					</div>
-					</div>
-				</ul>
-				</nav>
-			</div>
-		</div>
-	</nav>
+<?php
+    include_once('defaults/users/menu.php');
+    
+    ?>
 	<aside>
 	</aside>
 	<main>				
@@ -49,7 +33,7 @@
 		<b>Animals;</b>
 		"Animals are better than people", that is something I get from time to time. <br> When people let you down times again,
 		animals are there always for you to cheer you up. <br> That's why I would recommend everyone I they feel down look around 
-		<a href="image">here</a> or just <br> cuddle with one of the pets you know.
+		<a href="image.php">here</a> or just <br> cuddle with one of the pets you know.
 		<br>
 		<br>
 		<b>Games;</b>

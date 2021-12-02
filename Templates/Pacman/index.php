@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+
 <html lang="EN">
 <head>
     <meta charset="utf-8">
     <title>Choose your level</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../Templates/Pacman/css/style.css">
 </head>
 <nav>
     <div class="row">
         <div class="col-sm-12">
             <button class="homeButton-first">
-                <a href="../index.html" class="nav-right">Home page</a>
+                <a href="../home.php" class="nav-right">Home page</a>
             </button>
         </div>
     </div>

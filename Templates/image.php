@@ -8,25 +8,10 @@
 	<title>Dieren</title>
 </head>
 <body class="bodyStyle">
-	<nav>
-		<div class="row">
-			<div class="col-sm-12">
-				<ul class="nav">
-					<button class="switchButton">
-						Switch up
-					</button>
-					<span><a href="index.html">😄</a></span>
-					<div class="navigation">
-						<a href="index.html" class="nav-right">Home</a>
-						<a href="mot.html" class="nav-right">Motivation</a>
-						<a href="over.html" class="nav-right">About myself</a>
-					</div>
-					</div>
-				</ul>
-				</nav>
-			</div>
-		</div>
-	</nav>
+<?php
+    include_once('defaults/users/menu.php');
+    
+    ?>
 	<div class="intro">
 		<h2>Cuteness and fluffiness</h2>
 		<p>

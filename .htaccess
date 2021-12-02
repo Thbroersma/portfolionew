@@ -1,5 +1,7 @@
 RewriteEngine on
-RewriteRule ^categories/([0-9]+)/?$ /public/index.php?category_id=$1    [NC,L]    # Handle category requests
+RewriteRule ^home/([0-9]+)/?$ /public/index.php?home_id=$1   [NC,L]    # Handle category requests
+RewriteRule ^home/([0-9]+)/?$ /public/index.php?home_id=$1   [NC,L]    # Handle category requests
+
 
 
 # Rewrite all the default paths to public e.g. /css/style.css -> /public/css/style.css

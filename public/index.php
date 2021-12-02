@@ -11,7 +11,7 @@ $titleSuffix = "";
 switch ($params[1]) {
     case 'home.php':
         $titleSuffix = ' | Home';
-        include_once "../Templates/home.php";
+        include_once "../Templates/hometoo.php";
         break;
     case 'mot.php':
         $titleSuffix = ' | Motivation';
@@ -28,8 +28,9 @@ switch ($params[1]) {
         include_once "../Templates/image.php";
 
         break;
-    case 'game':
-
+    case 'game.php':
+        $titleSuffix = ' | Game';
+        include_once "../Templates/Pacman/index.php";
         break;
     case 'uitloggen':
     

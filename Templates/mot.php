@@ -9,23 +9,10 @@
 	<link rel="stylesheet" type="text/css" href="../public/css/style.css">
 </head>
 <body class="theBody">
-	<nav>
-		<nav>
-			<ul class="nav">
-				<button class="switchButton">
-					Switch up
-				</button>
-				<span><a href="index.html">😄</a></span>
-				<div class="navigation">
-					<a href="index.html" class="nav-right">Home</a>
-					<a href="mot.html" class="nav-right">Motivation</a>
-					<a href="over.html" class="nav-right">About myself</a>
-					<a href="Pacman/index.html" class="nav-right">Games</a>
-				</div>
-				</div>
-			</ul>
-		</nav>
-	</nav>
+<?php
+    include_once('defaults/users/menu.php');
+    
+    ?>
 	<br>
 	<aside>
 		<button type="active" class="motivation-button">

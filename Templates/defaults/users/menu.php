@@ -7,7 +7,7 @@
                     </button>
                     <span><a href="home.php">😄</a></span>
                     <div class="navigation">
-                        <a href="home.php" class="nav-right">Home</a>
+                        <a href="hometoo.php" class="nav-right">Home</a>
                         <a href="mot.php" class="nav-right">Motivation</a>
                         <a href="over.php" class="nav-right">About myself</a>
                         <a href="game.php" class="nav-right">Games</a>

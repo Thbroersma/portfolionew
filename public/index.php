@@ -32,11 +32,11 @@ switch ($params[1]) {
         $titleSuffix = ' | Game';
         include_once "../Templates/Pacman/index.php";
         break;
-    case 'uitloggen':
-    
+    case 'level1':
+        include_once "../Templates/Pacman/players1.php";
         break;
-    case 'admin':
-        
+    case 'level2':
+        include_once "../Templates/Pacman/players2.php";
         break;
     case 'inloggen':
         

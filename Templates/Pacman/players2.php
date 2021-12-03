@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Pac-man multiplayer level 1</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pacman.css" />
   </head>
   <body>
     <p class="h3">Score: <span class="score">0</span></p>

@@ -22,6 +22,6 @@
     </div>
 
     <br />
-    <script type="module" src="js/action.js"></script>
+    <script type="module" src="js/levelOne.js"></script>
   </body>
 </html>

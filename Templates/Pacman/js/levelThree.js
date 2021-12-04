@@ -359,7 +359,7 @@ function checkForGameOver() {
 if (reload) {
   reload.addEventListener('click', function () {
 
-    location.replace("players1.html");
+    location.replace("players1.php");
   })
 
 }

@@ -85,6 +85,10 @@ header {
 .headingThree {
 	font-size: 1.9vw;
 }
+.headingTwo {
+	margin-left: 10vh;
+	font-size: 1.1vw;
+}
 .high { 
 	width: 30vw;
 	height: 65vh;

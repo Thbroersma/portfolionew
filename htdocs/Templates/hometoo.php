@@ -140,7 +140,8 @@
         ?>
        </section>
         
-        
+       <h3 class="headingTwo">My other kind of projects</h3>
+
         <div class="row">
             <div class="col-5">
                 <?php include_once("../Templates/defaults/users/calculator.php"); ?>

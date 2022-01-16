@@ -1,6 +1,6 @@
             <div class="row project">
                 <div class="col-md-6">
-                    <h3 class="headingThree">My other kind of projects</h3>
+                    <h3 class="headingThree">My calculator</h3>
                     <p>
                         Here is a calculator that I have made. Since I wanted a little bit more in my calculator, 
                         so I a got a design from a teacher and added more functions and designed the way it fits together. 

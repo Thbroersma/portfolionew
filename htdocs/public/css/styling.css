@@ -205,6 +205,9 @@ nav a {
 .navigation {
 	float: right;
 }
+.project {
+	margin-left: 5vh;
+}
 .projects-aside {
 	margin-left: 3vw;
 }

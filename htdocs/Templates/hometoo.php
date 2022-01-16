@@ -106,9 +106,13 @@
             </div>
         </section>
         <br>
+        <div class="row project projects">
+                <h5>My projects</h5><br>
+           </div>
+       <section class="row projects">
+           
        
-        <h5 class="projects">My projects</h5>
-                    <div class="row">
+                    <!--<div class="row projects">-->
             
         <?php
         try {
@@ -134,7 +138,9 @@
             die("Error!: " . $e->getMessage());
         }
         ?>
-        </div>
+       </section>
+        
+        
         <div class="row">
             <div class="col-5">
                 <?php include_once("../Templates/defaults/users/calculator.php"); ?>

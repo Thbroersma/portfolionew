@@ -48,7 +48,7 @@ switch ($params[1]) {
     
         $titleSuffix = ' | Home';
         
-        include_once "../Templates/home.php";
+        include_once "../Templates/hometoo.php";
 
 
 }

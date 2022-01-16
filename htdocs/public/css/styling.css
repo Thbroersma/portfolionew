@@ -106,6 +106,9 @@ header {
 .intro {
 	margin-left: 2vw;
 }
+.intro-info {
+	margin-top: 5vh;
+}
 .img-fluid {
 	width: 93.7vw;
 	height: 95vh;
@@ -136,13 +139,14 @@ header {
 	margin-top: 3%;
 }
 main {
-	grid-column: 2/3;
-	grid-row: 3/4;
+	grid-column: 1/2;
+	grid-row: 2/3;
+	margin-left: 5vh;
 }
 .me {
 	width: 60%;
 	margin-left: 21%;
-	margin-top: 12%;
+	margin-top: 15%;
 }
 /* Body classes*/
 .myBody {
@@ -209,8 +213,7 @@ nav a {
 	font-size: 1.5rem;
 }
 .projects-aside-head {
-	margin-left: 6vw;
-	font-size: 1.5rem;
+	margin-left: 22vw;
 }
 .score-button {
 	display: none;

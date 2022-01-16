@@ -127,19 +127,23 @@
                             <img class='card-img' src='". $data['image'] . "'>
                             </div>
                         </div>";
-                    
+                        
             }
+            
         } catch (PDOException $e) {
             die("Error!: " . $e->getMessage());
         }
         ?>
         </div>
+        <div class="row">
+            <div class="col-5">
+                <?php include_once("../Templates/defaults/users/calculator.php"); ?>
+            </div>
+        </div>
         <!--Overige opdracht (een quiz)-->
-        <section class="part-one">
             <div class="row">
                 <div class="col-12">
-                <h4 class="projects-aside-head">But, there are more things</h4>
-
+                <h3 class="projects-aside-head headingThree">My own quiz</h3>
                     <div class="game">
                         <p>
                             Here is a little game that I have made. It is a question game about a programming languages and things you can find 
@@ -164,8 +168,6 @@
                             </button>
                     </div>
                 </div>
-            </div>
-        </section>
         
     </main>
     <!-- 

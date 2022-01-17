@@ -139,7 +139,66 @@
         }
         ?>
        </section>
-        
+       <div class="row">
+       <div id="photoshoot" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#photoshoot" data-slide-to="0" class="active"></li>
+		<li data-target="#photoshoot" data-slide-to="1"></li>
+		<li data-target="#photoshoot" data-slide-to="2"></li>
+		<li data-target="#photoshoot" data-slide-to="3"></li>
+		<li data-target="#photoshoot" data-slide-to="4"></li>
+		<li data-target="#photoshoot" data-slide-to="5"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="../public/img/baby.jpg" class="rounded projectCoursel">
+            <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+            </div>
+		</div>
+		<div class="carousel-item">
+			<img src="../public/img/bush.jpeg" class="rounded projectCoursel">
+            <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+            </div>
+		</div>
+		<div class="carousel-item">
+			<img src="../public/img/bush.jpg" class="rounded projectCoursel">
+            <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+            </div>
+		</div>
+		<div class="carousel-item">
+			<img src="../public/img/cow.jpg" class="rounded projectCoursel">
+            <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+            </div>
+		</div>
+		<div class="carousel-item">
+			<img src="../public/img/cows.jpg" class="rounded projectCoursel">
+            <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+            </div>
+		</div>
+		<div class="carousel-item">
+			<img src="../public/img/cute.jpg" class="rounded projectCoursel">
+            <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+            </div>
+		</div>
+	</div>
+	<a class="carousel-control-prev" href="#photoshoot" data-slide="prev"><span class="carousel-control-prev-icon"></span>	
+	</a>
+	<a class="carousel-control-next" href="#photoshoot" data-slide="next"> <span class="carousel-control-next-icon"></span>	
+	</a>
+</div>
+        </div>
        <h3 class="headingTwo">My other kind of projects</h3>
 
         <div class="row">

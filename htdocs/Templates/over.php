@@ -32,7 +32,7 @@ include_once('defaults/users/menu.php');
 		</ul>
 		<br>
 	</div>
-	<img src="../public/img/nature.jpg" class="rounded">
+	<img src="../public/img/nature.jpg" class="rounded nature">
 	<p class="text">
 		<b>Animals;</b>
 		"Animals are better than people", that is something I get from time to time. <br> When people let you down times again,

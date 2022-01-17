@@ -22,14 +22,14 @@
 
 		</p>
 	</aside>
-	<main>
+	<main class="mainMot">
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row rows">
 				<div class="col-3">
 					<h3 class="motivation">Motivation</h3>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row rows">
 				<div class="col-10">
 					<p>
 						My motivation is mostly driven by making a difference in making the world a better place.
@@ -40,12 +40,12 @@
 					</p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row rows">
 				<div class="col">
 					<h3 class="motivation">My characteristics</h3>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row rows">
 				<div class="col-10">
 					<p>
 						My characteristics are diverse but all together they are pretty useful. I am hard-working,
@@ -55,12 +55,12 @@
 					</p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row rows">
 				<div class="col">
 					<h3 class="motivation">My goals</h3>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row rows">
 				<div class="col-10">
 					<p>
 						There are different goals I have set for the coming years, so I have a personal and professional
@@ -75,13 +75,13 @@
 					</p>
 				</div>
 			</div>
-			<div class="row imageRow">
+			<div class="row rows imageRow ">
 				<div class="col-xs-12">
 					<img src="../public/img/change.jpg" class="rounded difference">
 					<img src="../public/img/gelijkheid.jpg" class="rounded difference">
 				</div>
 			</div>
-			<div class="row">
+			<div class="row rows">
 				<div class="col-10">
 					<H3 class="motivation">Job profile</H3>
 					<p>

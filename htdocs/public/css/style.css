@@ -5,44 +5,6 @@ body {
 	background-color: #D4F2CF;
 	color: black;
 }
-button {
-	background-color: #F3C678;
-	font-family: bold;
-	margin-left: 2vw;
-	margin-top: 3vh;
-
-}
-button a {
-	color: black;
-	text-decoration: none;
-}
-button a:hover {
-	color: black;
-	text-decoration: none;
-}
-#contact {
-	margin-left: 13vw;
- }
-.card{
-	width: 22vw;
-	margin: 2vw;
-	margin-left: 15vw;
-	color: black;
-}
-.card-img {
-	margin: 0
-}
-.card-body a{
-	color: blue;
-}
-.card-body a:hover{
-	color: black;
-}
-.container-fluid {
-	margin-top: 2vw;
-	margin-left: 2vw;
-}
-
 h3 {
 	font-size: 1.8vw;
 }
@@ -81,7 +43,6 @@ nav a {
 	border-color: rgb(43, 129, 25); 
 }
 .nav {
-	margin-top: 3vh;
 	margin-bottom: 3vh;
 	margin-right: 2vw;
 	display: inherit;	
@@ -99,10 +60,7 @@ nav a {
 
 
 
-* {
-	box-sizing: border-box;
-	margin:0;
-}
+
 
 nav {
 	grid-column: 1/3;
@@ -122,9 +80,7 @@ footer {
 	grid-row: 3/4;
 }
 
-img	{
-	width: 30vw;
-}
+
 .imageRow {
 	margin-bottom: 4vh;
 	margin-top: 2vh;
@@ -132,26 +88,11 @@ img	{
 .jobDescription {
 	font-size: 1.1vw;
 }
+
 .row {
 	margin-right: 0vw;
-	display: inline-block;
-}
-#me {
-	width: 300px;
-	height: 400px;
-	float: right;
-	margin-left: 8vw;
-	margin-right: 10vw;
 }
 
-#about {
-	font-family: bold;
-	font-size: 1.3em;
-	margin-right: 40%;
-	margin-left: 13vw;
-	margin-top: 1vh;
-	line-height: 1.3em;
-}
 .motivatie {
 	margin-right: 20%;
 }
@@ -174,21 +115,10 @@ span:hover {
 	background-color: rgb(89, 111, 233);
 }
 
-#first {
-	grid-column: 1/2;
-	grid-row: 3/4;
-}
 
-#second {
-	grid-column: 2/3;
-	grid-row: 3/4;
-}
 .over {
 		text-align: center;
 
-}
-#tooth {
-	margin-left: 12vw;
 }
 .jumbotron {
 

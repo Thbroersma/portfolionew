@@ -5,16 +5,20 @@
 	<meta charset="utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Bootstrap CSS --> 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> 
-	<link rel="stylesheet" type="text/css" href="../public/css/over.css">
+	<link rel="stylesheet" type="text/css" href="../public/css/styling.css">
 </head>
-<body class="the body">
+<body class="overBody">
+<div class="nav-over">
 <?php
-    include_once('defaults/users/menu.php');
-    
-    ?>
-	<aside>
+
+include_once('defaults/users/menu.php');
+
+?>
+</div>
+
+	<aside class="aside-over">
 	</aside>
-	<main>				
+	<main class="main-over">				
 	<h2 class="over"> About <i>my interests</i></h2>
 		
 		<p  class="text">
@@ -75,7 +79,7 @@
 		more things I would like to put in this website and that will come when I have the knowledge I need to make it work.
 	</p>
 	</section>
-	<footer>
+	<footer class="footer">
 		
 	</footer>
 	<script src="../public/js/action.js"> </script>

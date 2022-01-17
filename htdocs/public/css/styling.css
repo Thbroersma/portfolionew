@@ -13,6 +13,10 @@ h6 {
 .about {
 	font-size: 1.04vw;
 }
+.aside-over {
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
 aside {
 	grid-column: 1/2;
 	grid-row: 2/3;
@@ -69,6 +73,10 @@ footer {
 	grid-column: 1/3;
 	grid-row: 3/4;
 }
+.footer {
+	grid-column: 1/4;
+	grid-row: 4/5;
+}
 .forest {
 	width: 21vw;
 	height: 65vh;
@@ -103,11 +111,9 @@ header {
 	margin-left: 10vh;
 	font-size: 1.1vw;
 }
-.high { 
-	width: 30vw;
-	height: 65vh;
-	margin: 0.8vw;
-	text-align: center;
+.high {
+	height: 70vh;
+	width: 22vw;
 }
 .highScore-button {
 	margin-left: 19.8vw;
@@ -126,6 +132,11 @@ header {
 }
 .intro-info {
 	margin-top: 5vh;
+}
+img	{
+	width: 30vw;
+	margin-right: 15vw;
+	margin-left: 1vw;
 }
 .img-fluid {
 	width: 93.7vw;
@@ -171,6 +182,10 @@ main {
 .mainMot {
 	grid-column: 2/3;
 	grid-row: 2/3;
+}
+.main-over {
+	grid-column: 2/3;
+	grid-row: 3/4;
 }
 .me {
 	width: 60%;
@@ -221,6 +236,9 @@ nav button {
 nav a {
 	font-size: 1.2vw;
 }
+.nav-over {
+	grid-column: 1/4;
+}
 .nav-switch {
 	background-color: rgb(107, 143, 235);
 	color: black;
@@ -246,6 +264,16 @@ nav a {
 }
 .navigation {
 	float: right;
+}
+.over {
+	font-size: 2vw;
+}
+.overBody {
+	display: grid;
+	grid-template-columns: 10vw 45vw 45vw;
+	grid-template-rows: 10vh 8vh 75vh 7vh;
+	background-color: #D4F2CF;
+	color: black;
 }
 p {
 	color: black;
@@ -275,6 +303,10 @@ p {
 	width: 32%;
 	height: 7vh;
 	font-size: 1.3vw;
+}
+section {
+	grid-column: 3/4;
+	grid-row: 3/4;
 }
 span {
 	margin-left: 6vw;

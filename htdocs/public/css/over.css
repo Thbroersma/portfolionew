@@ -67,9 +67,7 @@ header {
 	grid-column: 1/4;
 	grid-row: 1/2;
 }
-.row {
-	margin-right: 0vw;
-}
+
 nav {
 	grid-column: 1/4;
 }

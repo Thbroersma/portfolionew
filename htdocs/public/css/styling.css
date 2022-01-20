@@ -1,3 +1,4 @@
+
 h3 {
 	font-size: 1.8vw;
 }
@@ -45,8 +46,16 @@ aside {
 .carousel.img {
 	width: 30vw;
 }
+.carousel-info {
+	width: 40%;
+	float: right;
+	margin-right: 10%;
+}
 .carousel-caption {
 	right: 10vh;
+}
+.carousel-row {
+	height: 40vw;
 }
 .contact {	
 	background-color: #F3C678;
@@ -311,9 +320,13 @@ p {
 	height: 7vh;
 	font-size: 1.3vw;
 }
-section {
+section { 	
 	grid-column: 3/4;
 	grid-row: 3/4;
+}
+.slide {
+	background-color: rgb(77, 64, 187);
+    padding: 5vh;
 }
 span {
 	margin-left: 6vw;

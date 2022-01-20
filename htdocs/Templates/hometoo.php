@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="../public/css/styling.css">
+    
     <!--
 
 	Emmet een snelle manier van codes zoals ul>li.item$*5 waarbij je een ul met 5 li die item1 oplopend tot 5 heten.
@@ -109,11 +110,26 @@
         <div class="row project projects">
                 <h5>My projects</h5><br>
            </div>
-       <section class="row projects">
-           
        
-                    <!--<div class="row projects">-->
-            
+       <div class="row carousel-row">
+            <div id="photoshoot" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#photoshoot" data-slide-to="0" class="active"></li>
+            <li data-target="#photoshoot" data-slide-to="1"></li>
+            <li data-target="#photoshoot" data-slide-to="2"></li>
+            <li data-target="#photoshoot" data-slide-to="3"></li>
+            <li data-target="#photoshoot" data-slide-to="4"></li>
+        </ul>
+        <div class='carousel-inner'>
+        <div class='carousel-item active'>
+                <img src='../public/img/baby.jpg' class='rounded projectCoursel'>
+                <div class='carousel-caption'>
+                <div class='carousel-info'>
+                        <h3>Calculator</h3>
+                        <p>Thank you, Chicago!</p>
+                    </div>
+                </div>
+            </div>
         <?php
         try {
             $db = new PDO("mysql:host=localhost;dbname=portfolio", "root", "");
@@ -123,14 +139,16 @@
             foreach($result as &$data) {
             
                 echo "
-                        <div class='col-md-2.'>
-                            <div class='card-body'>
-                            <h6>" . $data["title"] .  "</h6>
-                            <p> " . $data["description"] . "</p>
-                            <a href=". $data["github-link"] .">Github</a>
-                            <img class='card-img' src='". $data['image'] . "'>
+                    <div class='carousel-item'>
+                        <img src='". $data['image'] . "' class='rounded projectCoursel'>
+                        <div class='carousel-caption'>
+                            <div class='carousel-info'>
+                                <h3>" . $data["title"] .  "</h3>
+                                <p> " . $data["description"] . "</p>
+                                <a href=". $data["github-link"] .">Github</a>
                             </div>
-                        </div>";
+                        </div>
+                    </div>";
                         
             }
             
@@ -138,66 +156,12 @@
             die("Error!: " . $e->getMessage());
         }
         ?>
-       </section>
-       <div class="row">
-       <div id="photoshoot" class="carousel slide" data-ride="carousel">
-	<ul class="carousel-indicators">
-		<li data-target="#photoshoot" data-slide-to="0" class="active"></li>
-		<li data-target="#photoshoot" data-slide-to="1"></li>
-		<li data-target="#photoshoot" data-slide-to="2"></li>
-		<li data-target="#photoshoot" data-slide-to="3"></li>
-		<li data-target="#photoshoot" data-slide-to="4"></li>
-		<li data-target="#photoshoot" data-slide-to="5"></li>
-	</ul>
-	<div class="carousel-inner">
-		<div class="carousel-item active">
-			<img src="../public/img/baby.jpg" class="rounded projectCoursel">
-            <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-            </div>
-		</div>
-		<div class="carousel-item">
-			<img src="../public/img/bush.jpeg" class="rounded projectCoursel">
-            <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-            </div>
-		</div>
-		<div class="carousel-item">
-			<img src="../public/img/bush.jpg" class="rounded projectCoursel">
-            <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-            </div>
-		</div>
-		<div class="carousel-item">
-			<img src="../public/img/cow.jpg" class="rounded projectCoursel">
-            <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-            </div>
-		</div>
-		<div class="carousel-item">
-			<img src="../public/img/cows.jpg" class="rounded projectCoursel">
-            <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-            </div>
-		</div>
-		<div class="carousel-item">
-			<img src="../public/img/cute.jpg" class="rounded projectCoursel">
-            <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-            </div>
-		</div>
-	</div>
-	<a class="carousel-control-prev" href="#photoshoot" data-slide="prev"><span class="carousel-control-prev-icon"></span>	
-	</a>
-	<a class="carousel-control-next" href="#photoshoot" data-slide="next"> <span class="carousel-control-next-icon"></span>	
-	</a>
-</div>
+        </div>
+        <a class="carousel-control-prev" href="#photoshoot" data-slide="prev"><span class="carousel-control-prev-icon"></span>	
+        </a>
+        <a class="carousel-control-next" href="#photoshoot" data-slide="next"> <span class="carousel-control-next-icon"></span>	
+        </a>
+        </div>
         </div>
        <h3 class="headingTwo">My other kind of projects</h3>
 
@@ -219,7 +183,7 @@
                         <button class="score-button">
     
                         </button>
-                        <button class="gameButton"">
+                        <button class="gameButton">
                             Let the games begin!
                         </button>
                         <p class=" gamePlay">

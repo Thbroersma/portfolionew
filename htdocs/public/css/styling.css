@@ -14,14 +14,7 @@ h6 {
 .about {
 	font-size: 1.04vw;
 }
-.aside-over {
-	grid-column: 1/2;
-	grid-row: 3/4;
-}
-aside {
-	grid-column: 1/2;
-	grid-row: 2/3;
-}
+
 .bodyStyle {
 	background-color: #D4F2CF;
 	color: black;
@@ -57,6 +50,12 @@ aside {
 .carousel-row {
 	height: 40vw;
 }
+.col-calculator {
+	flex-shrink: 2;
+	margin: 0;
+	padding: 0;
+}
+
 .contact {	
 	background-color: #F3C678;
 }
@@ -73,6 +72,7 @@ aside {
 	width: 35vw;
 	height: 40vh;
 }
+
 .displayValue {
     width: 32.5vw;
     height: 3vw;
@@ -81,14 +81,7 @@ aside {
     font-size: 1.7vw;
 	border: 0.4px black solid;
 }
-footer {
-	grid-column: 1/3;
-	grid-row: 3/4;
-}
-.footer {
-	grid-column: 1/4;
-	grid-row: 4/5;
-}
+
 .forest {
 	width: 21vw;
 	height: 65vh;
@@ -111,10 +104,6 @@ footer {
 	margin-left: 10%;
 	font-size: 2.6vw;
 	margin-top: 2vh;
-}
-header {
-	grid-column: 1/3;
-	grid-row: 2/3;
 }
 .headingThree {
 	font-size: 1.9vw;
@@ -182,19 +171,6 @@ header {
 .lower-head {
 	margin-top: 3%;
 }
-main {
-	grid-column: 1/2;
-	grid-row: 2/3;
-	margin-left: 5vh;
-}
-.mainMot {
-	grid-column: 2/3;
-	grid-row: 2/3;
-}
-.main-over {
-	grid-column: 2/3;
-	grid-row: 3/4;
-}
 .me {
 	width: 60%;
 	margin-left: 21%;
@@ -216,27 +192,17 @@ main {
 }
 /* Body classes*/
 .myBody {
-	display: grid;
-	grid-template-columns: 100vw;
-	grid-template-rows: 10vh 9vh 81vh;
 	background-color: #D4F2CF;
 	color: black;
 	font-size: 1vw;
 }
 .myBody-switch {
-	display: grid;
-	grid-template-columns: 100vw;
-	grid-template-rows: 10vh 9vh 81vh;
 	background-color: #7ad9e6;
 	color: black;
 	font-size: 1vw;
 }
 .nature {
 	width: 30vw;
-}
-nav {
-	grid-column: 1/3;
-	grid-row: 1/2;
 }
 nav {
 	background-color: #A8DADC;
@@ -280,9 +246,6 @@ nav a {
 	font-size: 2vw;
 }
 .overBody {
-	display: grid;
-	grid-template-columns: 10vw 45vw 45vw;
-	grid-template-rows: 10vh 8vh 75vh 7vh;
 	background-color: #D4F2CF;
 	color: black;
 }
@@ -320,10 +283,6 @@ p {
 	height: 7vh;
 	font-size: 1.3vw;
 }
-section { 	
-	grid-column: 3/4;
-	grid-row: 3/4;
-}
 .slide {
 	background-color: rgb(77, 64, 187);
     padding: 5vh;
@@ -342,13 +301,14 @@ span:hover {
 	font-family: bold;
 }
 .theBody {
-	display: grid;
-	grid-template-columns: 13vw 87vw;
-	grid-template-rows: 10vh 90vh;
 	background-color: #D4F2CF;
 	color: black;
 }
 .row {
-	margin-right: 0vw;
+	margin: 0;
+	padding: 0;
 	flex-wrap:nowrap;
+}
+.displayRow {
+	margin-right: 1vw;
 }

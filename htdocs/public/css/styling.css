@@ -132,7 +132,8 @@ h6 {
 	margin-left: 2vw;
 }
 .intro-info {
-	margin-top: 5vh;
+	margin: 0!important;
+	padding: 2vh!important;
 }
 
 .img-fluid {
@@ -172,9 +173,8 @@ h6 {
 	margin-top: 3%;
 }
 .me {
-	width: 60%;
-	margin-left: 21%;
-	margin-top: 15%;
+	width: 20%;
+	right: 3vh;
 }
 .motivatie {
 	margin-right: 20%;

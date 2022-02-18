@@ -5,28 +5,23 @@
 </head>
 <?php include_once("defaults/users/head.php") ?>
 <body class="myBody ">
-
 <?php
-    include_once('defaults/users/menu.php');
-    
-    ?>
-    </div>
-    </div>
-    </nav>
-    <header>
+    include_once('defaults/users/menu.php');   
+?>
         <div class="row">
             <div class="col-sm">
                 <h1 class="head">Hello, how nice of you looking at my website!</h1>
             </div>
-        </div>
-    </header>
+        </div><!--
+        <div class="container">
+  	<div class="p-5 my-4 bg-light rounded-3">
+        <h1>Learn to Create Websites</h1>
+        <p class="lead">In today's world internet is the most popular way of connecting with the people. At <a href="https://www.tutorialrepublic.com" class="text-success" target="_blank">tutorialrepublic.com</a> you will learn the essential web development technologies along with real life practice examples, so that you can create your own website to connect with the people around the world.</p>
+        <p><a href="https://www.tutorialrepublic.com" target="_blank" class="btn btn-success btn-lg">Get started today</a></p>
+    </div>-->
 
-    <main>
-
-
-        <section class="part-one">
-            <div class="row">
-                <div class="col-sm-6 intro-info">
+            <div class="container">
+                <div class="p-5 my-4 bg-light rounded3 intro-info">
                     <h2 class="lower-head headingThree">This is me</h2>
                     <p class="about">
                         Hello, my name is Thierry, I am 25 years old. I am an enthousiastic webdesigner who works with HTML,
@@ -88,12 +83,10 @@
             <br>
             <input type="submit" name="verzenden" value="Send">
         </form>
+        <img src="../public/img/me.jpg" class="rounded me">
                 </div>
-                <div class="col-sm-4">
-                    <img src="../public/img/me.jpg" class="rounded me">
-                </div>
+                    
             </div>
-        </section>
         <br>
         <div class="row project projects">
                 <h5>My projects</h5><br>

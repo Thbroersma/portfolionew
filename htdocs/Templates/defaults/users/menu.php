@@ -9,7 +9,7 @@
         </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navigation">
-                        <a href="hometoo.php" class="nav-item nav-link active">Home</a>
+                        <a href="home.php" class="nav-item nav-link active">Home</a>
                         <a href="mot.php" class="nav-item nav-link">Motivation</a>
                         <a href="over.php" class="nav-item nav-link">About myself</a>
                         <a href="game.php" class="nav-item nav-link">Games</a>

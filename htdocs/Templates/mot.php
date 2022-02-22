@@ -5,7 +5,7 @@
 </head>
 <?php include_once("defaults/head.php") ?>
 
-<body class="theBody">
+<body class="myBody">
 <?php
     include_once('defaults/menu.php');
     

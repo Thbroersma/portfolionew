@@ -7,6 +7,7 @@ const switchButton = document.querySelector('.switchButton');
 const motivationButton = document.querySelector('.motivation-button');
 const nextButton = document.querySelector('.nextButton');
 const scoreButton = document.querySelector('.score-button');
+const navbarButton = document.querySelector("navbar-toggler");
 
 let motivationQuotes = [ 
     'You can do it, believe in yourself!', 
@@ -53,6 +54,14 @@ if (motivationButton) {
         const random = motivationQuotes[Math.floor(Math.random() * motivationQuotes.length)];
 
         text.innerHTML = random, motivationQuotes[random]
+    })
+}
+if (navbarButton) {
+    navbarButton.addEventListener('click', function() {
+
+        const navbar = document.querySelectorAll('.nav-link');
+
+        navbar.classList.toggle('nav-link-switch');
     })
 }
 

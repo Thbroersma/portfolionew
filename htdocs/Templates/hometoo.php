@@ -85,11 +85,12 @@
         </div>
     <br>
     <div class="row project projects">
-            <h5>My projects</h5><br>
         </div>
-    <div class="col-12">
+    <div class="col-12 slide">
+    <h5>My projects</h5><br>
+
     <div class="row carousel-row">
-        <div id="photoshoot" class="carousel slide" data-ride="carousel">
+        <div id="photoshoot" class="carousel " data-ride="carousel">
     <ul class="carousel-indicators">
         <li data-target="#photoshoot" data-slide-to="0" class="active"></li>
         <li data-target="#photoshoot" data-slide-to="1"></li>

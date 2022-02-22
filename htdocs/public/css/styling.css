@@ -14,12 +14,6 @@ h6 {
 .about {
 	font-size: 1.04vw;
 }
-
-.bodyStyle {
-	background-color: #D4F2CF;
-	color: black;
-	font-size: 1vw;
-}
 .buttons {
     width: 6.5vw;
     height: 6.5vh;
@@ -83,6 +77,7 @@ h6 {
 }
 footer {
 	background-color: #272446;
+	border-top: 1px solid rgb(177, 177, 177);
 }
 .forest {
 	width: 21vw;
@@ -208,13 +203,18 @@ footer {
 	width: 30vw;
 }
 nav {
-	background-color: #A8DADC;
+	background-color: #524491;
+	position: fixed;
+	
 }
 nav button {
 	font-size: 1.2vw;
 }
 nav a {
 	font-size: 1.2vw;
+}
+.nav-link {
+	display: inline;
 }
 .nav-over {
 	grid-column: 1/4;
@@ -248,10 +248,7 @@ nav a {
 .over {
 	font-size: 2vw;
 }
-.overBody {
-	background-color: #D4F2CF;
-	color: black;
-}
+
 p {
 	font-size: 1.1vw;
 }
@@ -286,8 +283,7 @@ p {
 	font-size: 1.3vw;
 }
 .slide {
-	background-color: rgb(77, 64, 187);
-    padding: 5vh;
+	background-color: rgb(47, 38, 119);
 }
 span {
 	margin-left: 6vw;
@@ -302,10 +298,7 @@ span:hover {
 	margin-left: 2vw;
 	font-family: bold;
 }
-.theBody {
-	background-color: #D4F2CF;
-	color: black;
-}
+
 .row {
 	margin: 0;
 	padding: 0;

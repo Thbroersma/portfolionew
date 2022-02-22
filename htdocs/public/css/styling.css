@@ -192,8 +192,9 @@ h6 {
 }
 /* Body classes*/
 .myBody {
-	background-color: #D4F2CF;
-	color: black;
+	
+	background-color: #2c2b3a;
+	color: rgb(255, 255, 255);
 	font-size: 1vw;
 }
 .myBody-switch {
@@ -250,7 +251,6 @@ nav a {
 	color: black;
 }
 p {
-	color: black;
 	font-size: 1.1vw;
 }
 .project {

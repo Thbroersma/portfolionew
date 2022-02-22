@@ -14,7 +14,7 @@ include_once('defaults/menu.php');
 ?>
 <div class="container-fluid">
 	<div class="row">
-	<div class="col-sm-6 col-md-12">
+	<div class="col-sm-6">
 		<h2 class="over"> About <i>my interests</i></h2>
 			
 			<p  class="text">
@@ -43,7 +43,7 @@ include_once('defaults/menu.php');
 		</div>
 		
 		
-		<div class="col-sm-6 col-md-12">
+		<div class="col-sm-6">
 		<h2 class="over">About <i>me</i></h2>
 		<p id="over">
 			<a href="https://www.linkedin.com/in/thierry-broersma-588174201/">Linkedin</a><br>

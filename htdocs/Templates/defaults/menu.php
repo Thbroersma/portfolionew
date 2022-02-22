@@ -4,8 +4,8 @@
                         Switch up
                     </button>-->
                     <span><a href="home.php" class="">😄</a></span>
-                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
+                    <button type="button" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon nav-button"></span>
         </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navigation">

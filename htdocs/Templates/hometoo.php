@@ -16,7 +16,7 @@
         <p><a href="https://www.tutorialrepublic.com" target="_blank" class="btn btn-success btn-lg">Get started today</a></p>
     </div>-->
 
-        <div class="container">
+        <div class="container intro-text">
             <div class="p-5 my-4 bg-light rounded3 intro-info">
                 <h2 class="lower-head headingThree">This is me</h2>
                 <p class="about">

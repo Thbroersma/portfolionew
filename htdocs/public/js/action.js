@@ -7,7 +7,7 @@ const switchButton = document.querySelector('.switchButton');
 const motivationButton = document.querySelector('.motivation-button');
 const nextButton = document.querySelector('.nextButton');
 const scoreButton = document.querySelector('.score-button');
-const navbarButton = document.querySelector("navbar-toggler");
+const navbarButton = document.querySelector("nav-button");
 
 let motivationQuotes = [ 
     'You can do it, believe in yourself!', 

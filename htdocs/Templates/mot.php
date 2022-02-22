@@ -3,11 +3,11 @@
 <head>
 	<title>Motivation</title>
 </head>
-<?php include_once("defaults/users/head.php") ?>
+<?php include_once("defaults/head.php") ?>
 
 <body class="theBody">
 <?php
-    include_once('defaults/users/menu.php');
+    include_once('defaults/menu.php');
     
     ?>
 	<br>
@@ -78,44 +78,11 @@
 					<img src="../public/img/gelijkheid.jpg" class="rounded difference">
 				</div>
 			</div>
-			<div class="row rows">
-				<div class="col-10">
-					<H3 class="motivation">Job profile</H3>
-					<p>
-						As a student I did an interview with a professional programmer, who is working on different kind
-						of levels in the IT.
-						Here I will go in the things that I learned about a Javascript developer, also because that is the
-						kind of IT that appeals to me.
-						<br><br>
-						<b>Javascript developer</b><br>
-						As a Javascript developer you will be responsible for the working of the applications,
-						functions, testing and maintenance of
-						all the things. That are the global things you will do, but there is more:
-					<ul class="jobDescription">
-						<li>Giving advice around the applications;</li>
-						<li>Solving problems that applications can have;</li>
-						<li>Making documation from Javascript code;</li>
-						<li>Meetings with other developers to see what could be better.</li>
-					</ul>
-					</p>
-					<p>
-					This are a few things I didn't knew or things that are going a bit different than you would think.
-					<br><br>
-					Further for a young developer it is good to know that you always must have a contract in paper, so
-					you will have the things you
-					need to do your job. And it is good to always look around for other programm languages so you will
-					become more valuable in skills,
-					plus try to switch between 1 and 2 years from project (unless the company you work for, changes a
-					lot in the kind of projects.). So
-					you won't stay in the one kind of programme job but grow in your skills. For example, give yourself
-					a challenge to create something you haven't
-					done yet or create something you can within a timelimit.
-					</p>
-				</div>
-			</div>
 			<br>
 		</div>
 	</main>
+	<?php include_once("defaults/footer.php") ?>
+
 	<script src="../public/js/action.js"> </script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

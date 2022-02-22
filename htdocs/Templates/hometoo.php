@@ -3,10 +3,10 @@
 <head>
     <title>Home</title>
 </head>
-<?php include_once("defaults/users/head.php") ?>
+<?php include_once("defaults/head.php") ?>
 <body class="myBody ">
 <?php
-    include_once('defaults/users/menu.php');   
+    include_once('defaults/menu.php');   
 ?>
     <!--
         <div class="container">
@@ -146,7 +146,7 @@
 
         <div class="row">
             <div class="col-5">
-                <?php include_once("../Templates/defaults/users/calculator.php"); ?>
+                <?php include_once("../Templates/defaults/calculator.php"); ?>
             </div>
         </div>
         <!--Overige opdracht (een quiz)-->
@@ -177,8 +177,10 @@
                             </button>
                     </div>
                 </div>
-        
+                </div>
+                </div>
     </main>
+    <?php include_once("defaults/footer.php") ?>
     <!-- 
 <a href="https://getbootstrap.com/docs/3.4/css/" class="btn btn-primary btn-lg active" role="button">Contact me</a>
 -->

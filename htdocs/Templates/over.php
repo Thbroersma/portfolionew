@@ -4,12 +4,12 @@
 	<title>Over</title>
 
 </head>
-<?php include_once("defaults/users/head.php") ?>
+<?php include_once("defaults/head.php") ?>
 
 <body class="overBody">
 <?php
 
-include_once('defaults/users/menu.php');
+include_once('defaults/menu.php');
 
 ?>
 <div class="container-fluid">
@@ -23,7 +23,6 @@ include_once('defaults/users/menu.php');
 		<div>
 			<ul class="text">
 				<li>Animals</li>
-				<li>Games</li>
 				<li>Nature</li>
 			</ul>
 			<br>
@@ -34,15 +33,7 @@ include_once('defaults/users/menu.php');
 			"Animals are better than people", that is something I get from time to time. <br> When people let you down times again,
 			animals are there always for you to cheer you up. <br> That's why I would recommend everyone I they feel down look around 
 			<a href="image.php">here</a> or just <br> cuddle with one of the pets you know.
-			<br>
-			<br>
-			<b>Games;</b>
-			
-			can help me to get some frustration out and try to let go of things <br>
-			that worry me and it also makes me enjoy the game worlds that can be created. <br>
-			Just remember not to live in those world that are created but live in the world and make <br>it better, 
-			add the things that make it better for you and those around you.
-			<br>
+			<br>	
 			<br>
 			<b>Nature</b> is one of the best things that I enjoy and it helps. Like when your <br>
 			head is too full with stuff and you can't get it back together, go on for <br>
@@ -78,11 +69,9 @@ include_once('defaults/users/menu.php');
 		
 	</div>
 </div>
+<?php include_once("defaults/footer.php") ?>
 
 	
-	<footer class="footer">
-		
-	</footer>
 	<script src="../public/js/action.js"> </script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

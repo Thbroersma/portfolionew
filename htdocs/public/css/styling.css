@@ -81,7 +81,9 @@ h6 {
     font-size: 1.7vw;
 	border: 0.4px black solid;
 }
-
+footer {
+	background-color: #272446;
+}
 .forest {
 	width: 21vw;
 	height: 65vh;

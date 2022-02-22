@@ -3,11 +3,11 @@
 <head>
 	<title>Dieren</title>
 </head>
-<?php include_once("defaults/users/head.php") ?>
+<?php include_once("defaults/head.php") ?>
 
 <body class="bodyStyle">
 <?php
-    include_once('defaults/users/menu.php');
+    include_once('defaults/menu.php');
     
     ?>
 	<div class="intro">

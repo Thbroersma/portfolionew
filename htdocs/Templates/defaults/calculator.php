@@ -14,7 +14,7 @@
                                 <div class="displayValue">0</div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row row-calculator">
                             <div class="col-xs-1 col-calculator" ">
                                 <button class="buttons calculator_item" data-action="BMI">BMI - W/L</button>
                             </div>
@@ -31,7 +31,7 @@
                                 <button class="buttons calculator_item" data-action="N-BTW">Exclusive BTW</button>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row row-calculator">
                             <div class="col-xs-1 col-calculator">
                                 <button class="buttons calculator_item" data-number="1">1</button>
                             </div>
@@ -48,7 +48,7 @@
                                 <button class="buttons calculator_item" data-action="power">&sup2;</button>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row row-calculator">
                             <div class="col-xs-1 col-calculator">
                                 <button class="buttons calculator_item" data-number="4">4</button>
                             </div>
@@ -65,7 +65,7 @@
                                 <button class="buttons calculator_item" data-action="root">&#8730;</button>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row row-calculator">
                             <div class="col-xs-1 col-calculator">
                                 <button class="buttons calculator_item" data-number="7">7</button>
                             </div>
@@ -82,7 +82,7 @@
                                 <button class="buttons calculator_item" data-number=".">.</button>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row row-calculator">
                             <div class="col-xs-1 col-calculator">
                                 <button class="buttons calculator_item ac-button" data-action="reset">C</button>
                             </div>

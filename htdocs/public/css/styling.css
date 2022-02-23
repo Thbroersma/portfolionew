@@ -306,11 +306,11 @@ span:hover {
 	font-family: bold;
 }
 
-.row {
+.row-calculator {
 	margin: 0;
 	padding: 0;
 	flex-wrap:nowrap;
-	flex-shrink: 2;
+	flex-shrink: 2; 	
 }
 .displayRow {
 	margin-right: 1vw;

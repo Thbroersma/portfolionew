@@ -12,47 +12,51 @@
 include_once('defaults/menu.php');
 
 ?>
-<div class="container-fluid">
+<!--<div class="container-fluid">
 	<div class="row">
-	<div class="col-sm-6">
-		<h2 class="over"> About <i>my interests</i></h2>
+		<div class="col-md-6">
+			<h1>Eerste tekst</h1>
+		</div>
+		<div class="col-md-6">
+			<h1>Tweede tekst</h1>
+		</div>
+	</div> -->
+
+	<div class="row">
+		<div class="col-md-6">
+			<h2 class="over"> About <i>my interests</i></h2>
 			
 			<p  class="text">
 				My interests are diverse as well so I will explain them below. Hopefully some of them will interest you. 
 			</p>
-		<div>
-			<ul class="text">
-				<li>Animals</li>
-				<li>Nature</li>
-			</ul>
-			<br>
-		</div>
-		<img src="../public/img/nature.jpg" class="rounded nature">
-		<p class="text">
-			<b>Animals;</b>
-			"Animals are better than people", that is something I get from time to time. <br> When people let you down times again,
-			animals are there always for you to cheer you up. <br> That's why I would recommend everyone I they feel down look around 
-			<a href="image.php">here</a> or just <br> cuddle with one of the pets you know.
-			<br>	
-			<br>
-			<b>Nature</b> is one of the best things that I enjoy and it helps. Like when your <br>
-			head is too full with stuff and you can't get it back together, go on for <br>
-			a walk in nature. It can help you to calm your brain and your spirit. Pair it sometimes with easy <br>
-			music. It can refresh you in 20 to 30 minutes, can I say out of experience.
-		</p>
+		
+			<div>
+				<ul class="text">
+					<li>Animals</li>
+					<li>Nature</li>
+				</ul>
+				<br>
+			</div>
+			<img src="../public/img/nature.jpg" class="img-fluid rounded nature">
+			<p class="text">
+				<b>Animals;</b>
+				"Animals are better than people", that is something I get from time to time. <br> When people let you down times again,
+				animals are there always for you to cheer you up. <br> That's why I would recommend everyone I they feel down look around 
+					<a href="image.php">here</a> or just <br> cuddle with one of the pets you know.
+					<br>	
+					<br>
+					<b>Nature</b> is one of the best things that I enjoy and it helps. Like when your <br>
+				head is too full with stuff and you can't get it back together, go on for <br>
+				a walk in nature. It can help you to calm your brain and your spirit. Pair it sometimes with easy <br>
+				music. It can refresh you in 20 to 30 minutes, can I say out of experience.
+			</p>
 		</div>
 		
 		
-		<div class="col-sm-6">
-		<h2 class="over">About <i>me</i></h2>
-		<p id="over">
-			<a href="https://www.linkedin.com/in/thierry-broersma-588174201/">Linkedin</a><br>
-			<a href="https://www.facebook.com/thierry.broersma">Facebook</a><br>
-			<a href="https://www.instagram.com/ThierryBroersma/?hl=nl">Instagram</a><br>
-			<a href="img/CV.pdf">CV</a><br>
-		</p>
-		<img src="../public/img/profiel.jfif" class="rounded high" alt="Me in my element">
-		<p class="text">
+		<div class="col-md-6">
+			<h2 class="over">About <i>me</i></h2>
+			<img src="../public/img/profiel.jfif" class=" rounded high" alt="Me in my element">
+			<p class="text">
 			As you have already read on my website, I am a hard-working person who is commited to his goals. 
 			But I also like to enjoy the little things in life, like a relaxing walk through the forest or riding around on 
 			my bicycle. I like enjoy things where you are in your element or when you do something and you see someone  
@@ -64,16 +68,19 @@ include_once('defaults/menu.php');
 			and far for it. The work I put into this site, my job and the people around me. You could think: is this all 
 			the work you can put in it, but this is all the knowledge I have right now and I can put in it. There are a lot 
 			more things I would like to put in this website and that will come when I have the knowledge I need to make it work.
-		</p>
+			</p>
 		</div>
 		
-	</div>
+	</div> 
 </div>
 <?php include_once("defaults/footer.php") ?>
 
 	
 	<script src="../public/js/action.js"> </script>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+-->
 </body>
 </html>
